@@ -5,5 +5,5 @@ package latihan3;
 // Kelas : 4D
 
 public class Rumus {
-    
+    int sisi, panjang, lebar, hasil;
 }

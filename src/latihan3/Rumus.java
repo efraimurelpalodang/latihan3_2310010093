@@ -7,10 +7,10 @@ package latihan3;
 public class Rumus {
     int sisi, panjang, lebar, hasil;
     
-    Rumus() {
-        this.panjang = 0;
-        this.lebar = 0;
-        this.hasil = 0;
+    public Rumus() {
+        panjang = 0;
+        lebar = 0;
+        hasil = 0;
     }
     
     public int hitungLuasPersegi(int sisi) {

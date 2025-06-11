@@ -7,6 +7,12 @@ package latihan3;
 public class Rumus {
     int sisi, panjang, lebar, hasil;
     
+    Rumus() {
+        this.panjang = 0;
+        this.lebar = 0;
+        this.hasil = 0;
+    }
+    
     public int hitungLuasPersegi(int sisi) {
         this.sisi = sisi;
         this.hasil = sisi * sisi;
@@ -18,5 +24,9 @@ public class Rumus {
         this.lebar = lebar;
         this.hasil = panjang * lebar;
         return this.hasil;
+    }
+    
+    public int getHasil() {
+        return hasil;
     }
 }
